@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "688992366945",
+    "firebase_url": "https://medical-survey-app.firebaseio.com",
+    "project_id": "medical-survey-app",
+    "storage_bucket": "medical-survey-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688992366945:android:b9f54fc259e7dd1fa1d520",
+        "android_client_info": {
+          "package_name": "com.blackbook.surveymh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688992366945-ubknv6hbl0a62g759mulg3ob7o70gih5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blackbook.surveymh",
+            "certificate_hash": "3d183aeeb389fd2764bd2044282aefe786174659"
+          }
+        },
+        {
+          "client_id": "688992366945-5116prkio5nr7pvguthbhj9njkthgjs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeDOlXIPsQvgaqAvFHa6WSKrXMQfA1O40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688992366945-5116prkio5nr7pvguthbhj9njkthgjs6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688992366945-4nde42cphb4045u9m81i2d0vhg03lqc0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.blackbook.surveyappmh",
+                "app_store_id": "1524518515"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

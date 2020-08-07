@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/str_appname"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/app_textsize_extra_large" />
+
+
+    <TextView
+        android:id="@+id/txt_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/str_copyright"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/app_textsize_semi_regular"
+        android:textColor="@color/color_black"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_title"
+        android:layout_alignEnd="@+id/txt_title"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/blackbookimg" />
+
+</RelativeLayout>
